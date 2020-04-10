@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
     chef.cookbooks_path = ["cookbooks"]
     chef.add_recipe "PythonDevEnvCookbook"
 
-    #chef.arguments = "--chef-license accept"
+    chef.arguments = "--chef-license accept"
 
   end
 end
